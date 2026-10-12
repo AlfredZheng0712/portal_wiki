@@ -37,7 +37,6 @@ This guide takes you from a new account to an exported segmentation: account set
 
 ### Registration and Stitching
 - [Virtual Stitching](virtual-stitching.md)
-- [Chromatic Aberration Correction](chromatic-aberration-correction.md)
 - [Online Transform](online-transform.md)
 - [Motion Correction](motion-correction.md)
 

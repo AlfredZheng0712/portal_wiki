@@ -34,7 +34,7 @@ To sign out, open the account menu in the top right (it shows your name, or `Use
 
 - **`Request failed (400)` with `Inactive user`**: the account has not been activated yet. Ask the site administrator.
 - **`Incorrect email or password`, but the password is right**: the email is matched exactly. Capital letters before the `@` count, and the part after the `@` is stored in lower case. Type the same capitals before the `@` as at sign-up, and lower case after it.
-- **`Request failed (400)` with `The user with this email already exists in the system`** when you sign up: the address is registered. Log in, or use `Forgot Password?`.
+- **`Request failed (400)` with `The user with this email already exists in the system`** when you sign up: the address is registered. Log in, or ask the site administrator to reset the password.
 - **A message that the account is not active yet after `Continue with Google`**: the same cause as `Inactive user`. Ask the site administrator.
 - **You are sent back to the login page**: the session has ended. Log in again.
 - **Forgot the password**: see [Forgot Password](forget-password.md).

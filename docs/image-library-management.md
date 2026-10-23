@@ -21,9 +21,9 @@ A dataset appears here when a conversion finishes. See [Convert to SISF](file-co
 
 1. Open the row menu in the `Actions` column of the dataset's row.
 2. Choose `Open Dataset`.
-3. The dialog explains that a default scene is created for the dataset and that any scene you have open is replaced. Click `Continue`.
+3. Click `Continue`. Scenes already open stay open.
 
-The viewer opens in a new window, the viewer window. See [Scene Viewer](scene-display-window-operations.md).
+The dataset's default scene opens in the viewer. See [Scene Viewer](scene-display-window-operations.md).
 
 ---
 

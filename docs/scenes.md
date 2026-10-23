@@ -19,7 +19,7 @@ A dataset opened from `Library` uses a default scene, marked with a Default Scen
 ## Steps
 
 1. Open a dataset from `Library`. See [Library](image-library-management.md).
-2. In the viewer window, press `Ctrl+S` (`Cmd+S` on macOS). Enter a `Scene Name` and click `Save`.
+2. In the viewer, press `Ctrl+S` (`Cmd+S` on macOS). Enter a `Scene Name` and click `Save`.
 3. Open `Scenes` in the sidebar. The scene is listed there. Double-click it to open it again.
 
 ---
@@ -36,7 +36,7 @@ A dataset opened from `Library` uses a default scene, marked with a Default Scen
 
 Open `Scenes` in the sidebar. Double-click a scene to open it, or open its row menu in the `Actions` column:
 
-- `Open Scene` opens it in the viewer, after you click `Continue`, and replaces the scene you already have open.
+- `Open Scene` opens it in the viewer after you click `Continue`. It does not close other scenes.
 - `Download Scene` saves the scene state as a `.json` file. It describes the view, not the image data.
 - `Duplicate Scene` copies the scene as `<title> (Copy)`, with its layers and settings.
 - `Edit Scene` changes the title and description. It can also replace the view from a `.json` file.

@@ -28,7 +28,7 @@ The result is stored in [SISF](https://github.com/Cai-Lab-at-University-of-Michi
 
 `Metadata successfully extracted!` means the file was read, not that every value was found. A value the file does not state stays empty or 0 and has to be typed in. If reading failed, click `Extract Metadata` or fill the fields in by hand.
 
-Check the voxel size before you start. If the file states no slice spacing, `Z Res` is copied from `X Res` and the form says so. That is a guess, so replace it with your real slice spacing.
+Check the voxel size before you start. If the file states no slice spacing, `Z Res` is copied from `X Res` and the form says so. That is a guess, so replace it with your real slice spacing. The warning `These axes differ by more than 10x` is normal for microendoscopy data.
 
 Other options in the dialog:
 

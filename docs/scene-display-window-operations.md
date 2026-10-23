@@ -9,14 +9,14 @@ tags:
 
 ## Open the viewer
 
-Open a dataset from `Library` (`Open Dataset`) or a scene from `Scenes` (`Open Scene`), then click `Continue`. Double-clicking a scene opens it at once. The viewer opens in its own window, called the viewer window in this guide. The portal pages stay in the main window. Keep the viewer window open while you use a plugin such as `Interactive Annotation`.
+Open a dataset from `Library` (`Open Dataset`) or a scene from `Scenes` (`Open Scene`), then click `Continue`. Double-clicking a scene opens it at once. The scene appears as a tab or in a new window, depending on `Settings`, `Appearance`, `Opening scenes`. Plugins open in the tools panel on the right.
 
-The viewer window has:
+The viewer has:
 
 - A top bar with a camera icon (screenshot), a share icon, `ROI Selection`, a command-key icon that opens `Keyboard Shortcuts`, and your account menu with `Log Out`. The share icon is described in [Groups and Sharing](groups-and-sharing.md).
 - A panel on the right. It shows the scene title with a Default Scene or Composed Scene badge, a `Layout` row (`XY`, `XZ`, `YZ`, `XY 3D`, `XZ 3D`, `YZ 3D`, `3D` and `4 Panel`), and two tabs, `Layers` and `Viewer`. See [Basic Image Adjustments](basic-image-adjustments.md). In a narrow window the panel starts collapsed: open it with the round button at the window's right edge.
 
-Click in the viewer once before you use a keyboard shortcut, so that the viewer window has the focus.
+Click in the viewer once before you use a keyboard shortcut, so it has the focus.
 
 ---
 
@@ -51,7 +51,7 @@ Display settings, layout and view position are not saved until you save the scen
 - **`Please select at least one layer and a resolution.`**: choose a layer under `Select Layers` and a scale under `Select Resolution`.
 - **The ranges in `ROI Specifications` are 0**: press `B` at two corners first, then choose a layer. The ranges fill in when the layer is chosen.
 - **`Range Specs (Pixels)` shows `Loading ROI…`**: the box is incomplete. Wait a moment, then press `B` at the opposite corner. After a right-click clear, press `B` at both corners again.
-- **A download stops when you leave the page**: keep the viewer window open until the progress bar completes.
+- **A download stops when you leave the page**: keep the viewer open until the progress bar finishes.
 - **The side panel is missing**: the window is narrow. Click the round button at the window's right edge.
 
 ---

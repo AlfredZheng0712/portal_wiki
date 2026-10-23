@@ -42,6 +42,12 @@ Only formats the portal can use are listed. A file in another format does not ap
 
 ---
 
+## Add a SISF folder
+
+A folder already in SISF format does not need converting. Choose `Add to Library` in its row menu. The dataset appears in `Library`.
+
+---
+
 ## Delete uploads
 
 1. Open the row menu and choose `Delete File` or `Delete Folder`.

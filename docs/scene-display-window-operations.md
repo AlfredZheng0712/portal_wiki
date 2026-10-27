@@ -9,11 +9,11 @@ tags:
 
 ## Open the viewer
 
-Open a dataset from `Library` (`Open Dataset`) or a scene from `Scenes` (`Open Scene`), then click `Continue`. Double-clicking a scene opens it at once. The scene appears as a tab or in a new window, depending on `Settings`, `Appearance`, `Opening scenes`. Plugins open in the tools panel on the right.
+Open a dataset from `Library` (`Open Dataset`) or a scene from `Scenes` (`Open Scene`), then click `Continue`. Double-clicking a scene opens it at once. The scene appears as a tab or in a new window, depending on `Settings`, `Appearance`, `Opening scenes`. Click the pop-out icon on a scene tab to move that scene to its own window. Plugins open in the tools panel on the right.
 
 The viewer has:
 
-- A top bar with a camera icon (screenshot), a share icon, `ROI Selection`, a command-key icon that opens `Keyboard Shortcuts`, and your account menu with `Log Out`. The share icon is described in [Groups and Sharing](groups-and-sharing.md).
+- Buttons for a screenshot (camera icon), sharing (share icon), `ROI Selection` and `Keyboard Shortcuts` (command-key icon). For a scene in a tab they are at the end of the tab row. For a scene in a window they are in the top bar, next to your account menu with `Log Out`. The share icon is described in [Groups and Sharing](groups-and-sharing.md).
 - A panel on the right. It shows the scene title with a Default Scene or Composed Scene badge, a `Layout` row (`XY`, `XZ`, `YZ`, `XY 3D`, `XZ 3D`, `YZ 3D`, `3D` and `4 Panel`), and two tabs, `Layers` and `Viewer`. See [Basic Image Adjustments](basic-image-adjustments.md). In a narrow window the panel starts collapsed: open it with the round button at the window's right edge.
 
 Click in the viewer once before you use a keyboard shortcut, so it has the focus.

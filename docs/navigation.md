@@ -35,7 +35,7 @@ The `Plugins` group includes these tools, which work on the scene open in the vi
 | `Spot Detection` | [Spot Detection](spot-detection.md) |
 | `Motion Correction` | [Motion Correction](motion-correction.md) |
 
-Open a dataset or scene first (see [Library](image-library-management.md)). Without one, a plugin page says `Please open a scene to use <plugin name>`. Keep the viewer open while you use a plugin.
+Open a dataset or scene first (see [Library](image-library-management.md)). Without one, the plugin's panel says `Open a scene to use <plugin name>.` Keep the viewer open while you use a plugin.
 
 ---
 
@@ -51,7 +51,7 @@ Open `Settings` in the sidebar, or `My Profile` in the account menu. The `User S
 
 - `My profile` shows your `Full name` and `Email`. `Edit` changes them. `Organization/Group` is set by a site administrator.
 - `Security` changes your password: enter `Current Password`, `New Password` and `Confirm Password`, then click `Save`.
-- `Appearance` holds `Theme`, `Sidebar` (`Compact rail` or `Classic panel`), `Opening scenes` (tab or window), `Row height`, `Columns` (which columns each list shows) and `Reset all appearance settings`. The choices are stored on your account.
+- `Appearance` holds `Theme`, `Sidebar` (`Compact rail` or `Classic panel`), `Opening scenes` (`In this page, as tabs`, `In this page if its viewer is empty, otherwise in a new window` or `Each in its own window`), `Row height`, `Columns` (which columns each list shows) and `Reset all appearance settings`. The choices are stored on your account.
 - `Danger zone` has a `Delete` button that permanently deletes your account after you confirm. Site administrators do not see this tab. Ask the site administrator what happens to stored files.
 
 ---

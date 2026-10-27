@@ -44,7 +44,7 @@ Only formats the portal can use are listed. A file in another format does not ap
 
 ## Add a SISF folder
 
-A folder already in SISF format does not need converting. Choose `Add to Library` in its row menu. The dataset appears in `Library`.
+A folder already in SISF format does not need converting. Choose `Add to Library` in its row menu. The dataset appears in `Library`. A row that shows `Added` is already in `Library` and no longer offers `Add to Library`. Open the dataset from `Library`.
 
 ---
 

@@ -26,8 +26,8 @@ The result goes to the segment selected under `Segmentation`. A new run replaces
 
 Changes to `Edge Limit`, `Edge Threshold`, `Channels` and `Protect Others` apply to the next seed you place, or when you click `Re-run`. They do not change the region on their own.
 
-- Keep `Tolerance Mode` on `Absolute`.
-- `New Seed Tolerance` sets how much a voxel can differ from the seed. A lower value gives a tighter region. It applies to the next seed you place.
+- `Tolerance Mode` sets how the tolerance values below are applied. Keep it on `Absolute`; the other option is marked `WIP` and cannot be selected.
+- `New Seed Tolerance` sets how far a connected voxel may differ from the seed voxel and still join the region, as a fraction of the typical intensity range in the locked region (extreme values are ignored). A lower value gives a tighter region. It applies to the next seed you place. On a multi-channel image the difference is measured across the selected channels.
 - To change a seed that is already placed, click it in `Per-Seed Parameters`, change `Selected Seed Tolerance`, and click `Re-run`.
 - `Edge Limit` removes voxels at strong intensity edges from the region. When it is on, `Edge Threshold` appears. A lower value removes more.
 - On a multi-channel image, tick the channels to use under `Channels`. At least one must stay selected.

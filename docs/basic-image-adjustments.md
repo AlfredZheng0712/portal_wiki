@@ -24,7 +24,7 @@ Click an image layer with `Ctrl` (`Cmd` on macOS) held, or with `Shift` held, to
 
 ## Filters
 
-Click an image layer in `Layers`, open its `Filters` tab and pick a filter under `Add Filter`, for example `Gamma Correction` or `Gaussian`. Filters only change how the image looks. The data and the algorithms are not affected.
+Click an image layer in `Layers`, open its `Filters` tab, choose a filter, for example `Gamma Correction` or `Gaussian`, and click `Add Filter`. It appears under `Active Filters`. Filters only change how the image looks. The data and the algorithms are not affected.
 
 ---
 

@@ -44,7 +44,7 @@ Only formats the portal can use are listed. A file in another format does not ap
 
 ## Add a SISF folder
 
-A folder already in SISF format does not need converting. Choose `Add to Library` in its row menu. The dataset appears in `Library`. A row that shows `Added` is already in `Library` and no longer offers `Add to Library`. Open the dataset from `Library`.
+A folder already in SISF format does not need converting. Choose `Add to Library` in its row menu. The dataset appears in `Library`. The folder is moved, not copied: after the next `Scan & Refresh` the row is gone from `Uploads`, and deleting the dataset in `Library` deletes its data too, because `Uploads` keeps no copy. A row that shows `Added` is already in `Library` and no longer offers `Add to Library`. Open the dataset from `Library`.
 
 ---
 
@@ -55,7 +55,7 @@ A folder already in SISF format does not need converting. Choose `Add to Library
 
 To delete several items, click `Select`, tick the rows, and click `Delete`, then click `Delete` in the dialog, which says that the uploaded files are deleted from disk. A ticked folder takes everything inside it.
 
-Deleting an upload removes only the raw file. A dataset already in `Library` keeps its converted copy.
+Deleting an upload removes only the raw file. A dataset converted from it keeps its converted copy in `Library`.
 
 The row menu depends on the row. It offers `Convert to SISF`, `Already Converted (Redo?)` after a conversion, or `Conversion Ongoing...` while one runs, plus `Rename File` and the delete entry. `Re-detect & Refresh` reads a folder again, for example one that was still uploading when it was scanned.
 

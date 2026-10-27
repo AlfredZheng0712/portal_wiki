@@ -34,7 +34,7 @@ Other options in the dialog:
 
 - `Split into separate layers per channel` (multi-channel files) creates one dataset for each channel.
 - Under `Register as`, `Item type` chooses `Image` or `Segmentation`. Choose `Segmentation` only to bring in an existing mask. Pick its `Parent image`: the mask must be single-channel and match the parent's size, which is checked after the conversion.
-- For Squid acquisitions, `Flatfield illumination correction` evens out tile brightness. Click `Re-fit & preview` to check it, then tick `Apply flatfield correction during conversion`. Not every site has this.
+- For Squid acquisitions, `Flatfield illumination correction` evens out tile brightness. Click `Fit & preview` (`Re-fit & preview` after the first fit) to estimate the correction from a sample of the raw frames and compare the images before and after. Then tick `Apply flatfield correction during conversion` to write the corrected values into the converted dataset.
 
 ---
 

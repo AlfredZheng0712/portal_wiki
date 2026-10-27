@@ -9,12 +9,12 @@ tags:
 
 ## Open the viewer
 
-Open a dataset from `Library` (`Open Dataset`) or a scene from `Scenes` (`Open Scene`), then click `Continue`. Double-clicking a scene opens it at once. The scene appears as a tab or in a new window, depending on `Settings`, `Appearance`, `Opening scenes`. Click the pop-out icon on a scene tab to move that scene to its own window. Plugins open in the tools panel on the right.
+Open a dataset from `Library` (`Open Dataset`) or a scene from `Scenes` (`Open Scene`), then click `Continue`. Double-clicking a scene opens it at once. The scene appears as a tab or in a new window, depending on `Settings`, `Appearance`, `Opening scenes`. In this guide, the viewer means the scene's tab or its window. Click the pop-out icon on a scene tab to move that scene to its own window. Plugins open in the tools panel at the far right of the main page, also when the scene is in its own window. A scene window has no tools panel.
 
 The viewer has:
 
-- Buttons for a screenshot (camera icon), sharing (share icon), `ROI Selection` and `Keyboard Shortcuts` (command-key icon). For a scene in a tab they are at the end of the tab row. For a scene in a window they are in the top bar, next to your account menu with `Log Out`. The share icon is described in [Groups and Sharing](groups-and-sharing.md).
-- A panel on the right. It shows the scene title with a Default Scene or Composed Scene badge, a `Layout` row (`XY`, `XZ`, `YZ`, `XY 3D`, `XZ 3D`, `YZ 3D`, `3D` and `4 Panel`), and two tabs, `Layers` and `Viewer`. See [Basic Image Adjustments](basic-image-adjustments.md). In a narrow window the panel starts collapsed: open it with the round button at the window's right edge.
+- Buttons for a screenshot (camera icon), sharing (share icon), `ROI Selection`, and a command-key icon that opens `Keyboard Shortcuts`. For a scene in a tab they are at the end of the tab row. For a scene in a window they are in the top bar, next to your account menu with `Log Out`. The share icon is described in [Groups and Sharing](groups-and-sharing.md).
+- A panel on the right. It shows the scene title with a Default Scene or Composed Scene badge, a `Layout` row (`XY`, `XZ`, `YZ`, `XY 3D`, `XZ 3D`, `YZ 3D`, `3D` and `4 Panel`), and two tabs, `Layers` and `Viewer`. See [Basic Image Adjustments](basic-image-adjustments.md). In a narrow page or window the panel starts collapsed: open it with the `Show layers` tab at the panel's edge.
 
 Click in the viewer once before you use a keyboard shortcut, so it has the focus.
 
@@ -52,7 +52,7 @@ Display settings, layout and view position are not saved until you save the scen
 - **The ranges in `ROI Specifications` are 0**: press `B` at two corners first, then choose a layer. The ranges fill in when the layer is chosen.
 - **`Range Specs (Pixels)` shows `Loading ROI…`**: the box is incomplete. Wait a moment, then press `B` at the opposite corner. After a right-click clear, press `B` at both corners again.
 - **A download stops when you leave the page**: keep the viewer open until the progress bar finishes.
-- **The side panel is missing**: the window is narrow. Click the round button at the window's right edge.
+- **The side panel is missing**: the page or window is narrow. Click the `Show layers` tab at the panel's edge.
 
 ---
 
